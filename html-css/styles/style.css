@@ -1,87 +1,160 @@
-/* Mobile Screen */
-@media screen and (max-width: 600px){
+/* Desktop Screen */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border: 1px solid #000000;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  background-color: #fafafa;
+  color: #939393;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn-submit {
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  background-color: #38a9e3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.alternative-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding: 7.5px 25px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.ketentuan{
+    display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #38a9e3;
+}
+
+/* Tambahan di Login Page */
+
+.btn-submit p {
+  padding-left: 16px;
+}
+
+.text-atau {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.text-atau .line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #000000;
+}
+
+.text-atau p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.forgot-password {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 600px) {
+  .img-accessories {
+    display: none;
+  }
+
+  .title{
+    flex-direction: column;
+  }
+
+  .form-register {
+    border: none;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .text-atau {
+    margin-bottom: 20px;
+  }
+
+  .alternative-option {
+    margin-top: 0;
+    border: none;
+  }
+  .ketentuan{
+    display: block;
+}
 }
 
 /* Tablet Screen */
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-
-}
-
-/* Desktop Screen */
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.form-register {
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    border: 1px solid #000000;
-}
-
-.title {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.field {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-input {
-    padding: 10px;
-    border: 1px solid #ACACAC;
-    border-radius: 5px;
-    background-color: #FAFAFA;
-    color: #939393;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-
-.register {
-    margin-top: 20px;
-    border: none;
-    background-color: #38A9E3;
-    color: #ffffff;
-}
-
-.alternative-option {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-    padding: 7.5px 25px;
-    border: 1px solid #000000;
-}
-
-a {
-    text-decoration: none;
-    color: #38A9E3;
 }
