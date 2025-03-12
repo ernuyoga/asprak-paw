@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 600px;
+    border-radius: 10px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#form-container input{
+    background-color: lightgreen;
+}
