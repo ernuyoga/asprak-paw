@@ -1,0 +1,2 @@
+Menulis data baru di awal file.
+put_contents()Menambah data di akhir file.
