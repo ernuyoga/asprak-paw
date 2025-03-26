@@ -1,0 +1,10 @@
+Name: 2, Email: admin@example.com
+Name: 2, Email: admin@example.com
+Name: test, Email: test@gmail.com
+Name: RINO OKTAVIAN RIDWAN, Email: rinooktavianridwan@student.ub.ac.id
+Name: tester, Email: tester@gmail.com
+Name: &lt;script&gt;alert(&#039;Hayolooo!&#039;);&lt;/script&gt;, Email: tester@gmail.com
+Name: echo $name;, Email: tester@gmail.com
+Name: echo &quot;kode php jalan&quot;;, Email: tester@gmail.com
+Name: echo $email;, Email: tester@gmail.com
+Name: phpinfo();, Email: tester@gmail.com
